@@ -47,9 +47,8 @@ public class Produit implements Serializable {
 	@ManyToOne
 	@JsonIgnore
 	private CategorieProduit categorieProduit;
-	
 
 
-	
-
+    public Produit(String produitI, String produitII, float v, Date date1, Date date2) {
+    }
 }
